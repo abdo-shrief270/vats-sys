@@ -2940,7 +2940,8 @@ td:last-child {
 }
 
 .testimonials__author {
-	display      : inline-block;
+    display: flex;
+    justify-content: space-around;
 	min-height   : var(--vspace-2);
 	margin-bottom: var(--vspace-0_625);
 	padding-left : calc(2.25 * var(--space));
@@ -2948,8 +2949,8 @@ td:last-child {
 }
 
 .testimonials__avatar {
-	width        : var(--vspace-1_75);
-	height       : var(--vspace-1_75);
+    width: 113px;
+    height: 109px;
 	border-radius: 100%;
 	outline      : none;
 	position     : absolute;
@@ -3655,7 +3656,6 @@ td:last-child {
 	object-fit    : cover;
 	aspect-ratio  : 2/2.5;
 	vertical-align: bottom;
-	box-shadow    : 0 60px 40px -40px rgba(0, 0, 0, 0.2);
 	position      : relative;
 }
 
